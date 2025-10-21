@@ -1,0 +1,75 @@
+[
+  {
+    "id": "1001",
+    "name": "Apartamento Luxo de Frente para o Mar",
+    "city": "Santos",
+    "address": "Av. Atlântica, 1234",
+    "price": 1850000.00,
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "area_sqm": 150,
+    "description": "Exclusivo apartamento de alto padrão com vista panorâmica para o oceano. Design moderno, varanda gourmet, e suítes espaçosas. Condomínio com lazer completo.",
+    "tags": ["Apartamento", "Alto Padrão", "Vista Mar", "Varanda Gourmet"],
+    "images": [
+      "https://picsum.photos/id/400/800/600?grayscale&blur=2",
+      "https://picsum.photos/id/401/800/600",
+      "https://picsum.photos/id/402/800/600"
+    ],
+    "is_featured": true,
+    "type": "Residence"
+  },
+  {
+    "id": "1002",
+    "name": "Casa Térrea no Centro - Excelente Oportunidade",
+    "city": "Presidente Prudente",
+    "address": "Rua das Flores, 567",
+    "price": 480000.00,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area_sqm": 90,
+    "description": "Casa charmosa e bem localizada, perfeita para quem busca conveniência e conforto. Amplo quintal e edícula. Próximo a escolas e comércio.",
+    "tags": ["Casa", "Oportunidade", "Centro", "Pronta para Morar"],
+    "images": [
+      "https://picsum.photos/id/403/800/600",
+      "https://picsum.photos/id/404/800/600"
+    ],
+    "is_featured": true,
+    "type": "Residence"
+  },
+  {
+    "id": "1003",
+    "name": "Terreno Comercial em Área de Expansão",
+    "city": "São Paulo",
+    "address": "Rodovia SP-270, Km 10",
+    "price": 750000.00,
+    "bedrooms": 0,
+    "bathrooms": 0,
+    "area_sqm": 500,
+    "description": "Ótimo terreno com potencial comercial e industrial. Fácil acesso às principais rodovias. Ideal para galpões ou novos empreendimentos.",
+    "tags": ["Terreno", "Comercial", "Investimento", "Expansão"],
+    "images": [
+      "https://picsum.photos/id/405/800/600"
+    ],
+    "is_featured": false,
+    "type": "Offer"
+  },
+
+
+  {
+    "id": "1300",
+    "name": "Casa a venda - Vida Nova Pacaembu",
+    "city": "Pres. Prudente",
+    "address": "Rodovia Ângelo Reno",
+    "price": 190000.00,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area_sqm": 200,
+    "description": "Ótimo terreno com potencial comercial e industrial. Fácil acesso às principais rodovias. Ideal para galpões ou novos empreendimentos.",
+    "tags": ["Casa", "Investimento", "Expansão"],
+    "images": [
+      "https://cdnm.com.br/pacaembu/media/ba/2f/d3/524/vida-nova-aracatuba-20230809095309000.jpg"
+    ],
+    "is_featured": true,
+    "type": "Residence"
+  }
+]

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Cano's Negócios Imobiliários</title>
+    <meta name="description"
+        content="Entre em contato com a Cano's Imobiliária para tirar dúvidas ou agendar uma visita. Use nosso formulário ou canais diretos.">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-blue': '#1e3a8a', // Azul-Marinho (800)
+                        'secondary-gray': '#4b5563', // Cinza Neutro (600)
+                    },
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="sticky top-0 z-50 bg-white shadow-lg">
+        <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
+            <a href="index.html"
+                class="text-2xl font-extrabold text-primary-blue hover:text-blue-700 transition-colors">
+                André Cano - Corretor de Imóveis
+            </a>
+            <div class="flex items-center space-x-6">
+                <a href="listings.html"
+                    class="text-secondary-gray hover:text-primary-blue font-medium transition-colors">Imóveis</a>
+                <a href="about.html"
+                    class="text-secondary-gray hover:text-primary-blue font-medium transition-colors hidden sm:inline">Sobre</a>
+                <a href="contact.html"
+                    class="text-secondary-gray hover:text-primary-blue font-medium transition-colors">Contato</a>
+
+                <a href="listings.html?favorites=true"
+                    class="relative text-gray-500 hover:text-yellow-600 transition-colors p-1">
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-.318-.318L4.318 6.318z" />
+                    </svg>
+                    <span id="favorite-count"
+                        class="absolute -top-1 -right-1 bg-red-600 text-white text-xs font-bold w-5 h-5 flex items-center justify-center rounded-full">0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <h1 class="text-4xl font-bold text-primary-blue mb-8 text-center">Fale Comigo</h1>
+
+        <div class="max-w-2xl mx-auto bg-white p-8 rounded-xl shadow-lg space-y-6 text-center">
+            <p class="text-lg text-gray-700">
+                Sou André Cano, corretor de imóveis autônomo. Estou à disposição para tirar suas dúvidas, agendar
+                visitas ou auxiliar na sua negociação imobiliária.
+            </p>
+
+            <div class="space-y-4">
+                <p class="font-medium text-primary-blue">Telefone / WhatsApp</p>
+                <a href="https://wa.me/5518999999999"
+                    class="text-gray-700 hover:text-primary-blue transition-colors text-lg">(18) 99999-9999</a>
+            </div>
+
+            <div class="space-y-4">
+                <p class="font-medium text-primary-blue">Email</p>
+                <a href="mailto:andre@contato.com.br"
+                    class="text-gray-700 hover:text-primary-blue transition-colors text-lg">andre@contato.com.br</a>
+            </div>
+
+            <div class="space-y-4">
+                <p class="font-medium text-primary-blue">Redes Sociais</p>
+                <div class="flex justify-center space-x-6 text-2xl">
+                    <a href="https://instagram.com/seuusuario" target="_blank"
+                        class="text-gray-700 hover:text-pink-500 transition-colors">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.332 3.608 1.308.975.975 1.246 2.242 1.308 3.608.058 1.266.07 1.645.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.332 2.633-1.308 3.608-.975.975-2.242 1.246-3.608 1.308-1.266.058-1.645.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.332-3.608-1.308-.975-.975-1.246-2.242-1.308-3.608-.058-1.266-.07-1.645-.07-4.85s.012-3.584.07-4.85c.062-1.366.332-2.633 1.308-3.608C4.517 2.495 5.784 2.224 7.15 2.163c1.266-.058 1.645-.07 4.85-.07M12 0C8.741 0 8.332.012 7.052.07 5.775.127 4.635.387 3.678 1.344 2.72 2.302 2.46 3.441 2.403 4.718 2.345 5.998 2.333 6.407 2.333 12s.012 6.002.07 7.282c.057 1.277.317 2.416 1.275 3.374.958.958 2.097 1.218 3.374 1.275C8.332 23.988 8.741 24 12 24s3.668-.012 4.948-.07c1.277-.057 2.416-.317 3.374-1.275.958-.958 1.218-2.097 1.275-3.374.058-1.28.07-1.689.07-7.282s-.012-6.002-.07-7.282c-.057-1.277-.317-2.416-1.275-3.374C19.364.387 18.225.127 16.948.07 15.668.012 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a3.999 3.999 0 110-7.998 3.999 3.999 0 010 7.998zm6.406-11.845a1.44 1.44 0 11-2.88 0 1.44 1.44 0 012.88 0z" />
+                        </svg>
+                    </a>
+                    <a href="https://facebook.com/seuusuario" target="_blank"
+                        class="text-gray-700 hover:text-blue-600 transition-colors">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M22.675 0h-21.35C.597 0 0 .598 0 1.334v21.333C0 23.402.597 24 1.325 24H12.82v-9.294H9.692V11.11h3.128V8.413c0-3.1 1.893-4.788 4.658-4.788 1.325 0 2.464.098 2.796.142v3.24l-1.918.001c-1.504 0-1.796.715-1.796 1.764v2.313h3.588l-.467 3.596h-3.121V24h6.116C23.403 24 24 23.402 24 22.667V1.334C24 .598 23.403 0 22.675 0z" />
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/5518999999999" target="_blank"
+                        class="text-gray-700 hover:text-green-500 transition-colors">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M.057 24l1.687-6.163a11.824 11.824 0 01-1.587-5.936C.157 5.305 5.48 0 12.033 0c3.19 0 6.18 1.244 8.438 3.503a11.816 11.816 0 013.5 8.41c-.003 6.556-5.327 11.879-11.884 11.879a11.82 11.82 0 01-5.936-1.587L.057 24zm6.597-3.807c1.732.995 3.241 1.591 5.393 1.607 5.5.012 9.977-4.466 9.989-9.97.003-2.656-1.037-5.147-2.922-7.024C17.89 2.302 15.398 1.27 12.742 1.267c-5.5 0-9.977 4.468-9.989 9.97-.011 2.318.832 4.548 2.357 6.204l-.907 3.308 3.451-.961zm11.387-5.464c-.297-.149-1.758-.868-2.03-.967-.272-.099-.47-.149-.668.15-.198.297-.766.967-.938 1.164-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.447-.52.149-.173.198-.297.298-.495.099-.198.05-.372-.025-.521-.075-.149-.668-1.611-.916-2.207-.242-.579-.487-.5-.668-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.693.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.413-.074-.124-.272-.198-.57-.347z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-primary-blue mt-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 text-white">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 border-b border-blue-800 pb-6 mb-6">
+                <div>
+                    <h4 class="font-bold text-lg mb-3">Cano's Imobiliária</h4>
+                    <p class="text-sm text-blue-200">Construindo sonhos, investindo no futuro. Confiança e
+                        profissionalismo em cada negócio.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-3">Navegação</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="index.html" class="text-blue-200 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="listings.html" class="text-blue-200 hover:text-white transition-colors">Imóveis</a>
+                        </li>
+                        <li><a href="about.html" class="text-blue-200 hover:text-white transition-colors">Sobre Nós</a>
+                        </li>
+                        <li><a href="contact.html" class="text-blue-200 hover:text-white transition-colors">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-3">Fale Conosco</h4>
+                    <p class="text-sm text-blue-200">Email: contato@canosimobiliaria.com.br</p>
+                    <p class="text-sm text-blue-200">Telefone: (18) 99999-9999</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-3">Redes Sociais</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-blue-200 hover:text-white transition-colors">FB</a>
+                        <a href="#" class="text-blue-200 hover:text-white transition-colors">Insta</a>
+                        <a href="#" class="text-blue-200 hover:text-white transition-colors">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center text-sm text-blue-300">
+                &copy; 2024 Cano's Negócios Imobiliários. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

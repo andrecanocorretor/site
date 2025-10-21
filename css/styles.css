@@ -1,0 +1,83 @@
+/*
+  Cano's Negócios Imobiliários - Custom CSS
+  Ajustes finos sobre o Tailwind
+*/
+
+:root {
+  --color-primary: #1e3a8a; /* Azul-Marinho */
+  --color-secondary: #4b5563; /* Cinza Neutro */
+}
+
+/* Scrollbar Style - Apenas para estética */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1e40af;
+}
+
+/* Estilo para o botão de Favorito */
+.favorite-btn.active svg {
+    fill: #f59e0b; /* Amarelo */
+    stroke: #f59e0b;
+}
+
+/* Efeito de hover geral em cards e botões */
+.transition-base {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Shadow mais profissional */
+.shadow-pro {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+}
+
+.shadow-pro:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    transform: translateY(-2px);
+}
+
+/* Lightbox overlay (para property.html) */
+.lightbox-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    cursor: zoom-out;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.lightbox-overlay.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.lightbox-content {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.lightbox-content img {
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: contain;
+    border-radius: 8px;
+}
