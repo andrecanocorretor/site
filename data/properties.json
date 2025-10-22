@@ -1,75 +1,571 @@
-[
-  {
-    "id": "1001",
-    "name": "Apartamento Luxo de Frente para o Mar",
-    "city": "Santos",
-    "address": "Av. Atlântica, 1234",
-    "price": 1850000.00,
+[  {
+    "id": "2001",
+    "name": "Casa térrea à venda – Bairro Alto",
+    "city": "Presidente Prudente",
+    "address": "Rua A, 123",
+    "price": 350000.00,
     "bedrooms": 3,
-    "bathrooms": 4,
-    "area_sqm": 150,
-    "description": "Exclusivo apartamento de alto padrão com vista panorâmica para o oceano. Design moderno, varanda gourmet, e suítes espaçosas. Condomínio com lazer completo.",
-    "tags": ["Apartamento", "Alto Padrão", "Vista Mar", "Varanda Gourmet"],
+    "bathrooms": 2,
+    "area_sqm": 140,
+    "description": "Casa bem localizada, próximo a comércios, ideal para família.",
+    "tags": ["Casa","Pronta para Morar","Bem Localizada"],
     "images": [
-      "https://picsum.photos/id/400/800/600?grayscale&blur=2",
-      "https://picsum.photos/id/401/800/600",
-      "https://picsum.photos/id/402/800/600"
+      "https://picsum.photos/seed/pp2001a/800/600",
+      "https://picsum.photos/seed/pp2001b/800/600",
+      "https://picsum.photos/seed/pp2001c/800/600"
     ],
-    "is_featured": true,
+    "is_featured": false,
     "type": "Residence"
   },
   {
-    "id": "1002",
-    "name": "Casa Térrea no Centro - Excelente Oportunidade",
+    "id": "2002",
+    "name": "Apartamento 2 dormitórios – Centro",
     "city": "Presidente Prudente",
-    "address": "Rua das Flores, 567",
-    "price": 480000.00,
+    "address": "Av. Central, 45",
+    "price": 260000.00,
     "bedrooms": 2,
     "bathrooms": 1,
-    "area_sqm": 90,
-    "description": "Casa charmosa e bem localizada, perfeita para quem busca conveniência e conforto. Amplo quintal e edícula. Próximo a escolas e comércio.",
-    "tags": ["Casa", "Oportunidade", "Centro", "Pronta para Morar"],
+    "area_sqm": 85,
+    "description": "Apartamento no coração da cidade, ótimo para investimento ou morar.",
+    "tags": ["Apartamento","Centro","Investimento"],
     "images": [
-      "https://picsum.photos/id/403/800/600",
-      "https://picsum.photos/id/404/800/600"
+      "https://picsum.photos/seed/pp2002a/800/600",
+      "https://picsum.photos/seed/pp2002b/800/600",
+      "https://picsum.photos/seed/pp2002c/800/600"
     ],
-    "is_featured": true,
+    "is_featured": false,
     "type": "Residence"
   },
   {
-    "id": "1003",
-    "name": "Terreno Comercial em Área de Expansão",
-    "city": "São Paulo",
-    "address": "Rodovia SP-270, Km 10",
-    "price": 750000.00,
+    "id": "2003",
+    "name": "Terreno residencial – Bairro Novo",
+    "city": "Presidente Prudente",
+    "address": "Rua B, Lote 10",
+    "price": 180000.00,
     "bedrooms": 0,
     "bathrooms": 0,
-    "area_sqm": 500,
-    "description": "Ótimo terreno com potencial comercial e industrial. Fácil acesso às principais rodovias. Ideal para galpões ou novos empreendimentos.",
-    "tags": ["Terreno", "Comercial", "Investimento", "Expansão"],
+    "area_sqm": 300,
+    "description": "Terreno plano, pronto para construção, ótimo tamanho.",
+    "tags": ["Terreno","Residencial","Construção"],
     "images": [
-      "https://picsum.photos/id/405/800/600"
+      "https://picsum.photos/seed/pp2003a/800/600",
+      "https://picsum.photos/seed/pp2003b/800/600",
+      "https://picsum.photos/seed/pp2003c/800/600"
     ],
     "is_featured": false,
     "type": "Offer"
   },
-
-
   {
-    "id": "1300",
-    "name": "Casa a venda - Vida Nova Pacaembu",
-    "city": "Pres. Prudente",
-    "address": "Rodovia Ângelo Reno",
-    "price": 190000.00,
-    "bedrooms": 2,
-    "bathrooms": 1,
-    "area_sqm": 200,
-    "description": "Ótimo terreno com potencial comercial e industrial. Fácil acesso às principais rodovias. Ideal para galpões ou novos empreendimentos.",
-    "tags": ["Casa", "Investimento", "Expansão"],
+    "id": "2004",
+    "name": "Casa em condomínio fechado – Região Oeste",
+    "city": "Presidente Prudente",
+    "address": "Condomínio X, Casa 5",
+    "price": 820000.00,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area_sqm": 260,
+    "description": "Alto padrão, lazer completo no condomínio, ideal para família grande.",
+    "tags": ["Casa","Condomínio","Alto Padrão"],
     "images": [
-      "https://cdnm.com.br/pacaembu/media/ba/2f/d3/524/vida-nova-aracatuba-20230809095309000.jpg"
+      "https://picsum.photos/seed/pp2004a/800/600",
+      "https://picsum.photos/seed/pp2004b/800/600",
+      "https://picsum.photos/seed/pp2004c/800/600"
     ],
     "is_featured": true,
     "type": "Residence"
+  },
+  {
+    "id": "2005",
+    "name": "Sala comercial – Avenida principal",
+    "city": "Presidente Prudente",
+    "address": "Av. Comércio, 300",
+    "price": 420000.00,
+    "bedrooms": 0,
+    "bathrooms": 2,
+    "area_sqm": 110,
+    "description": "Excelente para escritório ou loja, localização estratégica.",
+    "tags": ["Comercial","Sala","Localização"],
+    "images": [
+      "https://picsum.photos/seed/pp2005a/800/600",
+      "https://picsum.photos/seed/pp2005b/800/600",
+      "https://picsum.photos/seed/pp2005c/800/600"
+    ],
+    "is_featured": false,
+    "type": "Offer"
+  },
+  {
+    "id": "2006",
+    "name": "Chácara à venda – Sítio Verde",
+    "city": "Presidente Prudente",
+    "address": "Estrada Verde, Km 12",
+    "price": 650000.00,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_sqm": 1500,
+    "description": "Ambiente tranquilo, natureza ao redor, ideal para lazer ou moradia.",
+    "tags": ["Chácara","Lazer","Natureza"],
+    "images": [
+      "https://picsum.photos/seed/pp2006a/800/600",
+      "https://picsum.photos/seed/pp2006b/800/600",
+      "https://picsum.photos/seed/pp2006c/800/600"
+    ],
+    "is_featured": false,
+    "type": "Residence"
+  },
+  {
+    "id": "2007",
+    "name": "Apartamento cobertura – Vista panorâmica",
+    "city": "Presidente Prudente",
+    "address": "Rua Vista Linda, 99",
+    "price": 980000.00,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_sqm": 200,
+    "description": "Cobertura premium com vista panorâmica da cidade, área gourmet ampla.",
+    "tags": ["Apartamento","Cobertura","Vista"],
+    "images": [
+      "https://picsum.photos/seed/pp2007a/800/600",
+      "https://picsum.photos/seed/pp2007b/800/600",
+      "https://picsum.photos/seed/pp2007c/800/600"
+    ],
+    "is_featured": true,
+    "type": "Residence"
+  },
+  {
+    "id": "2008",
+    "name": "Galpão industrial – Zona de expansão",
+    "city": "Presidente Prudente",
+    "address": "Rua Indústria, 50",
+    "price": 1200000.00,
+    "bedrooms": 0,
+    "bathrooms": 2,
+    "area_sqm": 800,
+    "description": "Galpão novo, pé-direito alto, acesso para caminhões, ideal para logística.",
+    "tags": ["Industrial","Galpão","Logística"],
+    "images": [
+      "https://picsum.photos/seed/pp2008a/800/600",
+      "https://picsum.photos/seed/pp2008b/800/600",
+      "https://picsum.photos/seed/pp2008c/800/600"
+    ],
+    "is_featured": false,
+    "type": "Offer"
+  },
+  {
+    "id": "2009",
+    "name": "Sobrado recém-construído – Bairro Jardim Europa",
+    "city": "Presidente Prudente",
+    "address": "Rua Jardim Europa, 14",
+    "price": 720000.00,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area_sqm": 180,
+    "description": "Sobrado moderno, acabamento de primeira, próximo a parque e escolas.",
+    "tags": ["Sobrado","Novo","Família"],
+    "images": [
+      "https://picsum.photos/seed/pp2009a/800/600",
+      "https://picsum.photos/seed/pp2009b/800/600",
+      "https://picsum.photos/seed/pp2009c/800/600"
+    ],
+    "is_featured": true,
+    "type": "Residence"
+  },
+  {
+    "id": "2010",
+    "name": "Kitnet mobiliada – Investimento imediato",
+    "city": "Presidente Prudente",
+    "address": "Av. União, 205",
+    "price": 190000.00,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_sqm": 45,
+    "description": "Kitnet compacta, ótima para alugar ou morar sozinho, localização central.",
+    "tags": ["Kitnet","Mobiliada","Investimento"],
+    "images": [
+      "https://picsum.photos/seed/pp2010a/800/600",
+      "https://picsum.photos/seed/pp2010b/800/600",
+      "https://picsum.photos/seed/pp2010c/800/600"
+    ],
+    "is_featured": false,
+    "type": "Residence"
+  },
+  {
+    "id": "3001",
+    "name": "Casa térrea – Centro Pirapozinho",
+    "city": "Pirapozinho",
+    "address": "Rua Central, 80",
+    "price": 280000.00,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area_sqm": 95,
+    "description": "Casa simples, localizada no centro da cidade, fácil acesso a tudo.",
+    "tags": ["Casa","Centro","Simples"],
+    "images": [
+      "https://picsum.photos/seed/pz3001a/800/600",
+      "https://picsum.photos/seed/pz3001b/800/600",
+      "https://picsum.photos/seed/pz3001c/800/600"
+    ],
+    "is_featured": false,
+    "type": "Residence"
+  },
+  {
+    "id": "3002",
+    "name": "Terreno urbano – Bairro Nova Vida",
+    "city": "Pirapozinho",
+    "address": "Rua Nova Vida, Lote 12",
+    "price": 120000.00,
+    "bedrooms": 0,
+    "bathrooms": 0,
+    "area_sqm": 250,
+    "description": "Terreno pronto para construir, em bairro tranquilo.",
+    "tags": ["Terreno","Urbano","Construção"],
+    "images": [
+      "https://picsum.photos/seed/pz3002a/800/600",
+      "https://picsum.photos/seed/pz3002b/800/600",
+      "https://picsum.photos/seed/pz3002c/800/600"
+    ],
+    "is_featured": false,
+    "type": "Offer"
+  },
+  {
+    "id": "3003",
+    "name": "Chácara de lazer – Área rural Pirapozinho",
+    "city": "Pirapozinho",
+    "address": "Estrada do Sítio, Km 5",
+    "price": 550000.00,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "area_sqm": 1200,
+    "description": "Ótima chácara para lazer ou moradia, natureza ao redor, piscina.",
+    "tags": ["Chácara","Lazer","Natureza"],
+    "images": [
+      "https://picsum.photos/seed/pz3003a/800/600",
+      "https://picsum.photos/seed/pz3003b/800/600",
+      "https://picsum.photos/seed/pz3003c/800/600"
+    ],
+    "is_featured": false,
+    "type": "Residence"
+  },
+  {
+    "id": "3004",
+    "name": "Apartamento 3 dormitórios – Edifício Novo",
+    "city": "Pirapozinho",
+    "address": "Av. Lagoa, 10",
+    "price": 430000.00,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_sqm": 110,
+    "description": "Apartamento novo, acabamento moderno, ótimo para família.",
+    "tags": ["Apartamento","Novo","Família"],
+    "images": [
+      "https://picsum.photos/seed/pz3004a/800/600",
+      "https://picsum.photos/seed/pz3004b/800/600",
+      "https://picsum.photos/seed/pz3004c/800/600"
+    ],
+    "is_featured": true,
+    "type": "Residence"
+  },
+  {
+    "id": "3005",
+    "name": "Sala comercial – Centro Pirapozinho",
+    "city": "Pirapozinho",
+    "address": "Rua Comércio, 21",
+    "price": 220000.00,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "area_sqm": 60,
+    "description": "Sala bem localizada, ideal para escritório ou consultório.",
+    "tags": ["Comercial","Sala","Centro"],
+    "images": [
+      "https://picsum.photos/seed/pz3005a/800/600",
+      "https://picsum.photos/seed/pz3005b/800/600",
+      "https://picsum.photos/seed/pz3005c/800/600"
+    ],
+    "is_featured": false,
+    "type": "Offer"
+  },
+  {
+    "id": "3006",
+    "name": "Casa de campo – Região de Pirapozinho",
+    "city": "Pirapozinho",
+    "address": "Estrada Rural, Km 8",
+    "price": 480000.00,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_sqm": 800,
+    "description": "Casa de campo com terreno amplo, ambiente tranquilo, para lazer ou moradia.",
+    "tags": ["Casa","Campo","Lazer"],
+    "images": [
+      "https://picsum.photos/seed/pz3006a/800/600",
+      "https://picsum.photos/seed/pz3006b/800/600",
+      "https://picsum.photos/seed/pz3006c/800/600"
+    ],
+    "is_featured": false,
+    "type": "Residence"
+  },
+  {
+    "id": "3007",
+    "name": "Terreno comercial – Frente avenida principal",
+    "city": "Pirapozinho",
+    "address": "Av. Principal, Lote 3",
+    "price": 320000.00,
+    "bedrooms": 0,
+    "bathrooms": 0,
+    "area_sqm": 400,
+    "description": "Terreno comercial, excelente visibilidade, ideal para loja ou franquia.",
+    "tags": ["Terreno","Comercial","Visibilidade"],
+    "images": [
+      "https://picsum.photos/seed/pz3007a/800/600",
+      "https://picsum.photos/seed/pz3007b/800/600",
+      "https://picsum.photos/seed/pz3007c/800/600"
+    ],
+    "is_featured": false,
+    "type": "Offer"
+  },
+  {
+    "id": "3008",
+    "name": "Sobrado novo – Bairro Residencial",
+    "city": "Pirapozinho",
+    "address": "Rua Residencial, 45",
+    "price": 540000.00,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_sqm": 150,
+    "description": "Sobrado com acabamento de qualidade, ideal para quem busca conforto.",
+    "tags": ["Sobrado","Residencial","Conforto"],
+    "images": [
+      "https://picsum.photos/seed/pz3008a/800/600",
+      "https://picsum.photos/seed/pz3008b/800/600",
+      "https://picsum.photos/seed/pz3008c/800/600"
+    ],
+    "is_featured": true,
+    "type": "Residence"
+  },
+  {
+    "id": "3009",
+    "name": "Apartamento studio – Próximo faculdade",
+    "city": "Pirapozinho",
+    "address": "Rua Universitária, 12",
+    "price": 230000.00,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_sqm": 50,
+    "description": "Ótimo para estudantes ou como investimento, localização próxima à faculdade.",
+    "tags": ["Apartamento","Studio","Investimento"],
+    "images": [
+      "https://picsum.photos/seed/pz3009a/800/600",
+      "https://picsum.photos/seed/pz3009b/800/600",
+      "https://picsum.photos/seed/pz3009c/800/600"
+    ],
+    "is_featured": false,
+    "type": "Residence"
+  },
+  {
+    "id": "3010",
+    "name": "Chácara pequena – Lazer tranquilo",
+    "city": "Pirapozinho",
+    "address": "Estrada Lazer, Km 3",
+    "price": 380000.00,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area_sqm": 600,
+    "description": "Chácara com piscina e área de lazer, ótimo para fugas de final de semana.",
+    "tags": ["Chácara","Lazer","Piscina"],
+    "images": [
+      "https://picsum.photos/seed/pz3010a/800/600",
+      "https://picsum.photos/seed/pz3010b/800/600",
+      "https://picsum.photos/seed/pz3010c/800/600"
+    ],
+    "is_featured": false,
+    "type": "Residence"
+  },
+  {
+    "id": "4001",
+    "name": "Casa simples – Bairro Habitacional",
+    "city": "Regente Feijó",
+    "address": "Rua Habitacional, 33",
+    "price": 240000.00,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area_sqm": 100,
+    "description": "Casa de entrada, ótima para iniciar moradia ou locação.",
+    "tags": ["Casa","Entrada","Locação"],
+    "images": [
+      "https://picsum.photos/seed/rf4001a/800/600",
+      "https://picsum.photos/seed/rf4001b/800/600",
+      "https://picsum.photos/seed/rf4001c/800/600"
+    ],
+    "is_featured": false,
+    "type": "Residence"
+  },
+  {
+    "id": "4002",
+    "name": "Terreno urbano – Bem localizado",
+    "city": "Regente Feijó",
+    "address": "Av. Cidade, Lote 7",
+    "price": 150000.00,
+    "bedrooms": 0,
+    "bathrooms": 0,
+    "area_sqm": 200,
+    "description": "Terreno no centro da cidade, fácil acesso, pronto para construir.",
+    "tags": ["Terreno","Urbano","Pronto"],
+    "images": [
+      "https://picsum.photos/seed/rf4002a/800/600",
+      "https://picsum.photos/seed/rf4002b/800/600",
+      "https://picsum.photos/seed/rf4002c/800/600"
+    ],
+    "is_featured": false,
+    "type": "Offer"
+  },
+  {
+    "id": "4003",
+    "name": "Apartamento 3 dormitórios – Edifício central",
+    "city": "Regente Feijó",
+    "address": "Rua Edifício, 5",
+    "price": 410000.00,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_sqm": 120,
+    "description": "Apartamento moderno, com varanda, localizado em prédio novo.",
+    "tags": ["Apartamento","Moderno","Varanda"],
+    "images": [
+      "https://picsum.photos/seed/rf4003a/800/600",
+      "https://picsum.photos/seed/rf4003b/800/600",
+      "https://picsum.photos/seed/rf4003c/800/600"
+    ],
+    "is_featured": true,
+    "type": "Residence"
+  },
+  {
+    "id": "4004",
+    "name": "Sobrado – Bairro Verde",
+    "city": "Regente Feijó",
+    "address": "Travessa Flora, 12",
+    "price": 550000.00,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area_sqm": 200,
+    "description": "Sobrado espaçoso, ótimo para famílias que buscam mais espaço.",
+    "tags": ["Sobrado","Família","Espaçoso"],
+    "images": [
+      "https://picsum.photos/seed/rf4004a/800/600",
+      "https://picsum.photos/seed/rf4004b/800/600",
+      "https://picsum.photos/seed/rf4004c/800/600"
+    ],
+    "is_featured": false,
+    "type": "Residence"
+  },
+  {
+    "id": "4005",
+    "name": "Terreno industrial – Zona de expansão",
+    "city": "Regente Feijó",
+    "address": "Rod. Feijó-Mar-Lagoas, Km 4",
+    "price": 900000.00,
+    "bedrooms": 0,
+    "bathrooms": 0,
+    "area_sqm": 1000,
+    "description": "Terreno amplo, ideal para galpão ou indústria leve.",
+    "tags": ["Terreno","Industrial","Expansão"],
+    "images": [
+      "https://picsum.photos/seed/rf4005a/800/600",
+      "https://picsum.photos/seed/rf4005b/800/600",
+      "https://picsum.photos/seed/rf4005c/800/600"
+    ],
+    "is_featured": false,
+    "type": "Offer"
+  },
+  {
+    "id": "4006",
+    "name": "Casa em condomínio – Lazer completo",
+    "city": "Regente Feijó",
+    "address": "Condomínio Sol, Casa 7",
+    "price": 780000.00,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_sqm": 160,
+    "description": "Casa dentro de condomínio fechado com piscina e área de lazer.",
+    "tags": ["Casa","Condomínio","Lazer"],
+    "images": [
+      "https://picsum.photos/seed/rf4006a/800/600",
+      "https://picsum.photos/seed/rf4006b/800/600",
+      "https://picsum.photos/seed/rf4006c/800/600"
+    ],
+    "is_featured": true,
+    "type": "Residence"
+  },
+  {
+    "id": "4007",
+    "name": "Kitnet – Investimento estudante",
+    "city": "Regente Feijó",
+    "address": "Rua Estudantes, 9",
+    "price": 160000.00,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_sqm": 40,
+    "description": "Kitnet compacta, ótima para locação ou quem está começando.",
+    "tags": ["Kitnet","Investimento","Compacta"],
+    "images": [
+      "https://picsum.photos/seed/rf4007a/800/600",
+      "https://picsum.photos/seed/rf4007b/800/600",
+      "https://picsum.photos/seed/rf4007c/800/600"
+    ],
+    "is_featured": false,
+    "type": "Residence"
+  },
+  {
+    "id": "4008",
+    "name": "Apartamento duplex – Alto padrão",
+    "city": "Regente Feijó",
+    "address": "Av. Luxo, 101",
+    "price": 950000.00,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area_sqm": 210,
+    "description": "Duplex de alto padrão, varanda gourmet, acabamento premium.",
+    "tags": ["Apartamento","Duplex","Alto Padrão"],
+    "images": [
+      "https://picsum.photos/seed/rf4008a/800/600",
+      "https://picsum.photos/seed/rf4008b/800/600",
+      "https://picsum.photos/seed/rf4008c/800/600"
+    ],
+    "is_featured": true,
+    "type": "Residence"
+  },
+  {
+    "id": "4009",
+    "name": "Chácara – Tranquilidade e natureza",
+    "city": "Regente Feijó",
+    "address": "Estrada Verde, Km 2",
+    "price": 430000.00,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area_sqm": 700,
+    "description": "Chácara com pomar e quintal amplo, local calmo para descanso.",
+    "tags": ["Chácara","Natureza","Quintal"],
+    "images": [
+      "https://picsum.photos/seed/rf4009a/800/600",
+      "https://picsum.photos/seed/rf4009b/800/600",
+      "https://picsum.photos/seed/rf4009c/800/600"
+    ],
+    "is_featured": false,
+    "type": "Residence"
+  },
+  {
+    "id": "4010",
+    "name": "Sala comercial – Shopping local",
+    "city": "Regente Feijó",
+    "address": "Av. Comércio, 150",
+    "price": 330000.00,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "area_sqm": 75,
+    "description": "Sala em shopping local, bom fluxo de pessoas, ótimo para estabelecimento.",
+    "tags": ["Comercial","Sala","Shopping"],
+    "images": [
+      "https://picsum.photos/seed/rf4010a/800/600",
+      "https://picsum.photos/seed/rf4010b/800/600",
+      "https://picsum.photos/seed/rf4010c/800/600"
+    ],
+    "is_featured": false,
+    "type": "Offer"
   }
 ]
